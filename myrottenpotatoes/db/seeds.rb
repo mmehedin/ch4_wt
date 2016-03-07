@@ -20,3 +20,4 @@ more_movies = [
 more_movies.each do |movie|
   Movie.create!(movie)
 end
+
